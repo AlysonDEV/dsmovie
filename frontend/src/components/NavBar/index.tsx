@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import GithubIcon from '../../assets/img/github.svg'
+// import GithubIcon from '../../assets/img/github.svg'
+import { ReactComponent as GithubIcon } from '../../assets/img/github.svg'
 
 import './style.css'
 
@@ -11,7 +12,8 @@ export function Navbar(){
               <h1>DSMovie</h1>
               <a href="https://github.com/devsuperior" target="_blank" rel="noreferrer">
                   <div className="dsmovie-contact-container">
-                       <GithubIcon /> 
+                      {/*<img src={GithubIcon} className="GithubIcon" alt="logoGithub"/>*/}
+                      <GithubIcon />
                       <p className="dsmovie-contact-link">/devsuperior</p>
                   </div>
               </a>
