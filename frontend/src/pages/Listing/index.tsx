@@ -1,5 +1,5 @@
 function Listing() {
-	return (<h1>Listas</h1>)
+	return (<h1>Lista de Filmes</h1>)
 
 }
 export default Listing
