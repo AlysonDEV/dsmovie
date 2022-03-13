@@ -1,5 +1,11 @@
+import './style.css'
+
+import Pagination from "../../components/Pagination"
+
 function Listing() {
-	return (<h1>Lista de Filmes</h1>)
+	return(
+		<Pagination />
+	)
 
 }
 export default Listing
